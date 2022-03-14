@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <link rel='icon' href='data:,'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@500&family=El+Messiri&family=Montserrat:ital,wght@0,400;1,500&family=Nunito&family=Oswald&family=Playfair+Display:ital@1&family=Prata&family=Roboto&family=Staatliches&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@500&family=El+Messiri&family=Montserrat:ital,wght@0,400;1,500&family=Nunito:wght@400;600;900&family=Oswald&family=Playfair+Display:ital@1&family=Prata&family=Roboto&family=Staatliches&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <audio class="myAudio"
+        src='./pictures/Музыка/ending.mp3' loop='loop' autoplay='allowed'>
+    </audio>
+<div class="header">
+    <h1 class="title"></h1>
+</div>
+
+<div id="container">
+<div>
+    <button id="btn"  class="btn btn__play" data-aos="fade-down" data-aos-duration="2000">ИГРАТЬ</button>
+</div>
+<div>
+    <img id='img' src="./pictures/photo-1463171379579-3fdfb86d6285.jfif" data-aos="fade-up" data-aos-duration="2000" alt="картинка" width="30%" height="20%">
+</div>
+
+<div class="block">
+<div>
+    <p class="question">День программиста — 13 сентября, день системного администратора — последняя пятница июля, день тестировщика программ — 14 февраля, день web-программиста — 4 апреля, день web-тестировщика — 9 сентября. </p>
+</div>
+<div class="answer">
+    <button id="true"  class="btn btn__true">ПРАВДА</button>
+    <button id="false"  class="btn btn__false">ЛОЖЬ</button>
+</div>
+<div>
+    <button id="next"  class="btn btn__next">СЛЕДУЮЩИЙ</button>
+</div>
+<div>
+    <button id="result"  class="btn btn__result">РЕЗУЛЬТАТ</button>
+</div>
+
+</div>
+<div class="center">
+    <img  class="image2" src="./pictures/photo-1526649661456-89c7ed4d00b8.jfif" alt="фото">
+</div>
+
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();    // для инициализации AOS
+</script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
